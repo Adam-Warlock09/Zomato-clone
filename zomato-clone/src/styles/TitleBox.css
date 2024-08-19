@@ -1,0 +1,38 @@
+.title-container{
+    position: relative;
+    background: transparent;
+    z-index: 3;
+    align-self: center;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-family: system-ui,
+        -apple-system,
+        "Segoe UI",
+        Roboto,
+        "Helvetica Neue",
+        "Noto Sans",
+        "Liberation Sans",
+        Arial,
+        sans-serif,
+        "Apple Color Emoji",
+        "Segoe UI Emoji",
+        "Segoe UI Symbol",
+        "Noto Color Emoji";
+    color: #fff;
+}
+
+.title-container > h2{
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: -2.5rem;
+}
+
+.zomato-logo {
+    margin-top: -4rem;
+    transform: scale(0.3);
+}
+

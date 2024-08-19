@@ -1,0 +1,10 @@
+.card-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    height: 10rem;
+    width: 25%;
+    display: inline;
+}

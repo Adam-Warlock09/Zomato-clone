@@ -1,0 +1,32 @@
+ul{
+    position: absolute;
+    z-index: 2;
+    font-family:'okra', 'helvetica', 'sans-serif';
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul > div{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 1rem 2rem;
+}
+
+ul > div:nth-child(1){
+    width: 50%;
+    justify-content: flex-start;
+}
+
+.navlink{
+    cursor: pointer;
+    font-weight:100;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+}
