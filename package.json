@@ -3,5 +3,8 @@
     "bootstrap-icons": "^1.11.3",
     "react-bootstrap": "^2.10.4",
     "react-responsive-carousel": "^3.2.23"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
